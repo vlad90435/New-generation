@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300i,400,700';
+
 article,
 aside,
 details,
@@ -29,57 +30,57 @@ textarea {
   font: inherit;
 }
 
-body,
-div,
-span,
+a,
+abbr,
+acronym,
+address,
 applet,
-object,
-iframe,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figure,
+form,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-cite,
-code,
-del,
-dfn,
-em,
+iframe,
 img,
 ins,
 kbd,
-q,
-samp,
-strong,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
 label,
 legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+span,
+strong,
 table,
-caption,
 tbody,
+td,
 tfoot,
+th,
 thead,
 tr,
-th,
-td,
-figure {
+tt,
+ul,
+var {
   vertical-align: baseline;
   background: 0 0;
 }
@@ -153,9 +154,9 @@ html[data-section-active='projects'].js {
   overflow-x: hidden;
 }
 
-#teleportAnim,
 #nav,
 #projectDetailsModal,
+#teleportAnim,
 html {
   overflow-y: auto;
   overflow-x: hidden;
@@ -169,8 +170,8 @@ html {
   bottom: 0;
 }
 
-.sec:before,
-.sec:after {
+.sec:after,
+.sec:before {
   content: '';
   position: absolute;
   left: 0;
@@ -216,8 +217,8 @@ a:visited {
   font-family: inconsolata, monospace;
 }
 
-.no-toch a:hover,
-.no-toch a:active {
+.no-toch a:active,
+.no-toch a:hover {
   color: #e9b171;
 }
 
@@ -225,8 +226,8 @@ a:visited {
   cursor: default;
 }
 
-button:not(:focus),
-button:hover {
+button:hover,
+button:not(:focus) {
   outline: none;
   border: none;
 }
@@ -237,13 +238,13 @@ button {
 
 @font-face {
   font-family: league_gothicregular;
-  src: url(webfonts/leaguegothic-regular-webfont.eot);
-  src: url(webfonts/leaguegothic-regular-webfont.eot?#iefix)
+  src: url('webfonts/leaguegothic-regular-webfont.eot');
+  src: url('webfonts/leaguegothic-regular-webfont.eot?#iefix')
       format('embedded-opentype'),
-    url(webfonts/leaguegothic-regular-webfont.woff2) format('woff2'),
-    url(webfonts/leaguegothic-regular-webfont.woff) format('woff'),
-    url(webfonts/leaguegothic-regular-webfont.ttf) format('truetype'),
-    url(webfonts/leaguegothic-regular-webfont.svg#league_gothicregular)
+    url('webfonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+    url('webfonts/leaguegothic-regular-webfont.woff') format('woff'),
+    url('webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('webfonts/leaguegothic-regular-webfont.svg#league_gothicregular')
       format('svg');
   font-weight: 400;
   font-style: normal;
@@ -288,9 +289,9 @@ mark {
   font-weight: 700;
 }
 
-pre,
 code,
 kbd,
+pre,
 samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
@@ -307,8 +308,8 @@ q {
   quotes: none;
 }
 
-q:before,
-q:after {
+q:after,
+q:before {
   content: '';
   content: none;
 }
@@ -363,8 +364,8 @@ strong {
   text-decoration: underline;
 }
 
-ul,
-ol {
+ol,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -383,9 +384,9 @@ dd {
   list-style: decimal;
 }
 
-#teleportAnim,
 #nav,
-#projectDetailsModal {
+#projectDetailsModal,
+#teleportAnim {
   visibility: hidden;
   position: fixed;
   z-index: 100;
@@ -398,10 +399,10 @@ dd {
   -webkit-overflow-scrolling: touch;
 }
 
-#teleportAnim:focus,
+#main:focus,
 #nav:focus,
 #projectDetailsModal:focus,
-#main:focus {
+#teleportAnim:focus {
   outline: none !important;
   border: none !important;
 }
@@ -427,22 +428,22 @@ dd {
   bottom: 0;
 }
 
-#teleportAnim :first-child {
+#teleportAnim:first-child {
   background: #c22085;
   z-index: 1;
 }
 
-#teleportAnim :nth-child(2) {
+#teleportAnim:nth-child(2) {
   background: #2d9687;
   z-index: 2;
 }
 
-#teleportAnim :nth-child(3) {
+#teleportAnim:nth-child(3) {
   background: #e9b171;
   z-index: 3;
 }
 
-#teleportAnim :nth-child(4) {
+#teleportAnim:nth-child(4) {
   background: #e2b8aa;
   z-index: 4;
 }
@@ -458,8 +459,8 @@ header {
   top: 0;
 }
 
-.logo,
-#hamburger {
+#hamburger,
+.logo {
   cursor: pointer;
   pointer-events: auto;
   position: fixed;
@@ -559,8 +560,8 @@ nav a + span {
   background-size: 100% 100%;
 }
 
-nav a:hover + span,
-nav a:focus + span {
+nav a:focus + span,
+nav a:hover + span {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   transform: translateX(0);
@@ -724,14 +725,14 @@ html #hamburger span {
   }
 }
 
-.no-touchevents .logo:hover polygon,
 .no-touchevents .logo:hover path,
+.no-touchevents .logo:hover polygon,
 .no-touchevents .logo:hover rect {
   animation: changeFill 4s linear infinite alternate;
 }
 
-.no-touchevents #hamburger:hover span,
-#hamburger:focus span {
+#hamburger:focus span,
+.no-touchevents #hamburger:hover span {
   animation: changeBackgroundColor 4s linear infinite alternate;
 }
 
@@ -769,8 +770,8 @@ html #hamburger span {
 .quoteSec .wrap {
 }
 
-.quoteTop,
-.quoteBottom {
+.quoteBottom,
+.quoteTop {
   position: absolute;
   will-change: stroke-dashoffset;
 }
@@ -787,25 +788,25 @@ html #hamburger span {
 
 .quote1 .quoteTop,
 .quote3 .quoteTop {
-  right: 0%;
+  right: 0;
   top: 5%;
 }
 
 .quote1 .quoteBottom,
 .quote3 .quoteBottom {
-  left: 0%;
+  left: 0;
   bottom: 5%;
 }
 
 .quote2 .quoteTop,
 .quote4 .quoteTop {
-  left: 0%;
+  left: 0;
   top: 5%;
 }
 
 .quote2 .quoteBottom,
 .quote4 .quoteBottom {
-  right: 0%;
+  right: 0;
   bottom: 5%;
 }
 
@@ -818,8 +819,8 @@ html #hamburger span {
   left: -3rem;
 }
 
-.secHead:before,
-.secHead:after {
+.secHead:after,
+.secHead:before {
   display: inline-block;
 }
 
@@ -838,7 +839,6 @@ html #hamburger span {
 }
 
 .secContent p {
-  margin: 30px 0;
   margin: 1em 0;
   line-height: 2rem;
 }
@@ -949,8 +949,8 @@ html .secContent > p:first-child {
   transform-style: preserve-3d;
 }
 
-.js #homeSVG,
 .js #helloGreetings,
+.js #homeSVG,
 .js #mainLogo {
   opacity: 0;
 }
@@ -960,10 +960,10 @@ html[data-section-active='projects'] #body #mainLogo {
 }
 
 #homeSVG,
-.home-purple polygon,
-.home-purple-back polygon,
 .home-green polygon,
 .home-green-back polygon,
+.home-purple polygon,
+.home-purple-back polygon,
 .home-yellow polygon,
 .home-yellow-back polygon {
   fill: none;
@@ -1052,8 +1052,8 @@ html[data-section-active='projects'] #body #mainLogo {
   width: 100%;
 }
 
-#scrollDown path,
-#scrollDown line {
+#scrollDown line,
+#scrollDown path {
   fill: none;
   stroke: #c22085;
   stroke-width: 3;
@@ -1224,8 +1224,8 @@ html[data-section-active='projects'] #body #mainLogo {
   left: 0;
 }
 
-#quotePositiveTop,
-#quotePositiveBottom {
+#quotePositiveBottom,
+#quotePositiveTop {
   stroke: #2d9687;
   stroke-width: 15;
   fill: none;
@@ -1238,8 +1238,8 @@ html[data-section-active='projects'] #body #mainLogo {
   color: #2d9687;
 }
 
-.training .secContent,
-.about .secContent {
+.about .secContent,
+.training .secContent {
   width: 50%;
   width: 35rem;
   max-width: 60%;
@@ -1287,23 +1287,23 @@ html[data-section-active='projects'] #body #mainLogo {
   stroke-miterlimit: 10;
 }
 
-path.aboutThoughtCloud,
+a.aboutThoughtCloud path,
+a.aboutThoughtCloud polygon,
 g.aboutThoughtCloud path,
 g.aboutThoughtCloud polygon,
-a.aboutThoughtCloud path,
-a.aboutThoughtCloud polygon {
+path.aboutThoughtCloud {
   fill: #e9b171;
   -webkit-transition: fill 0.25s cubic-bezier(0.26, 0.09, 0.29, 0.85);
   -moz-transition: fill 0.25s cubic-bezier(0.26, 0.09, 0.29, 0.85);
   transition: fill 0.25s cubic-bezier(0.26, 0.09, 0.29, 0.85);
 }
 
-.no-touchevents path.aboutThoughtCloud:hover,
-.no-touchevents g.aboutThoughtCloud:hover path,
-.no-touchevents g.aboutThoughtCloud:hover polygon,
+.no-touchevents #aboutImg .spiderLogo:hover polygon:first-child,
 .no-touchevents a.aboutThoughtCloud:hover path,
 .no-touchevents a.aboutThoughtCloud:hover polygon,
-.no-touchevents #aboutImg .spiderLogo:hover polygon:first-child {
+.no-touchevents g.aboutThoughtCloud:hover path,
+.no-touchevents g.aboutThoughtCloud:hover polygon,
+.no-touchevents path.aboutThoughtCloud:hover {
   fill: #c22085;
 }
 
@@ -1354,31 +1354,31 @@ a.aboutThoughtCloud polygon {
 }
 
 .trainingIcosa1 {
-  fill: url(#icosaGrad1);
+  fill: url('#icosaGrad1');
 }
 
 .trainingIcosa2 {
-  fill: url(#icosaGrad2);
+  fill: url('#icosaGrad2');
 }
 
 .trainingIcosa3 {
-  fill: url(#icosaGrad3);
+  fill: url('#icosaGrad3');
 }
 
 .trainingIcosa4 {
-  fill: url(#icosaGrad4);
+  fill: url('#icosaGrad4');
 }
 
 .trainingIcosa5 {
-  fill: url(#icosaGrad5);
+  fill: url('#icosaGrad5');
 }
 
 .trainingIcosa6 {
-  fill: url(#icosaGrad6);
+  fill: url('#icosaGrad6');
 }
 
 .trainingIcosa7 {
-  fill: url(#icosaGrad7);
+  fill: url('#icosaGrad7');
 }
 
 .training {
@@ -1541,9 +1541,9 @@ a.aboutThoughtCloud polygon {
   font-size: 0.8em;
 }
 
-input[type='text'],
-input[type='number'],
 input[type='email'],
+input[type='number'],
+input[type='text'],
 textarea {
   width: 100%;
   border: none;
@@ -1559,9 +1559,9 @@ textarea {
   -webkit-border-radius: 0;
 }
 
-input[type='text']:focus,
-input[type='number']:focus,
 input[type='email']:focus,
+input[type='number']:focus,
+input[type='text']:focus,
 textarea:focus {
   animation: changeBorder 10s linear infinite alternate;
   transition: border 0.25s ease-in-out;
@@ -1571,18 +1571,18 @@ textarea {
   height: 3em;
 }
 
-input[type='text']:focus,
-input[type='number']:focus,
+#contactForm textarea:focus,
 input[type='email']:focus,
-#contactForm textarea:focus {
+input[type='number']:focus,
+input[type='text']:focus {
   border: none;
   border-bottom: 1px solid #c22085;
   outline: none;
 }
 
-input:focus ~ .styledLabel,
 #contactForm textarea:focus ~ .styledLabel,
-.inputNotEmpty .styledLabel {
+.inputNotEmpty .styledLabel,
+input:focus ~ .styledLabel {
   top: -1.4em;
   font-size: 15px;
   font-size: 1rem;
@@ -1640,10 +1640,10 @@ input:focus ~ .styledLabel,
   display: block;
 }
 
-.CS-Single,
-.CS-Spacer,
+.CS-MacBookWrap,
 .CS-MobileDevicesWrap,
-.CS-MacBookWrap {
+.CS-Single,
+.CS-Spacer {
   position: relative;
   margin: 12.5% 0;
 }
@@ -1651,8 +1651,8 @@ input:focus ~ .styledLabel,
 .CS-Content .CS-Cover,
 .CS-Content .CS-headSubQuote,
 .CS-Content blockquote,
-.CSSBrowserWrap,
-.CS-MacBookWrap {
+.CS-MacBookWrap,
+.CSSBrowserWrap {
   margin-bottom: 12.5%;
   position: relative;
 }
@@ -1710,7 +1710,7 @@ input:focus ~ .styledLabel,
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 0%;
+  top: 0;
   width: 80%;
   max-width: 80%;
   will-change: -webkit-transform;
@@ -1843,8 +1843,8 @@ img.CS-Cover-blurred {
   width: 18px;
 }
 
-.CSSBrowserHamburgar:before,
-.CSSBrowserHamburgar:after {
+.CSSBrowserHamburgar:after,
+.CSSBrowserHamburgar:before {
   border-bottom: 1px solid #c22085;
   position: absolute;
   left: 0;
@@ -1861,13 +1861,13 @@ img.CS-Cover-blurred {
   top: 6px;
 }
 
-.CS-MobileDevicesWrap svg,
-.CS-MacBookWrap svg {
+.CS-MacBookWrap svg,
+.CS-MobileDevicesWrap svg {
   display: block;
 }
 
-.CS-MobileDevicesWrap .CS-iPad svg,
-.CS-MacBookWrap svg {
+.CS-MacBookWrap svg,
+.CS-MobileDevicesWrap .CS-iPad svg {
   margin: 0 auto;
 }
 
@@ -1899,8 +1899,8 @@ img.CS-Cover-blurred {
 @-webkit-keyframes fadeInOut {
   0,
   10%,
-  90%,
-  100% {
+  100%,
+  90% {
     opacity: 0;
   }
 
@@ -1913,8 +1913,8 @@ img.CS-Cover-blurred {
 @keyframes fadeInOut {
   0,
   10%,
-  90%,
-  100% {
+  100%,
+  90% {
     opacity: 0;
   }
 
@@ -1947,9 +1947,9 @@ html body .CS-endLinks > a {
   color: #fff;
 }
 
-.CS-iPhone svg,
 .CS-MacBookWrap svg,
-.CS-iPad svg {
+.CS-iPad svg,
+.CS-iPhone svg {
   display: block;
   width: 100%;
 }
@@ -1959,8 +1959,8 @@ html body .CS-endLinks > a {
   width: 805px;
 }
 
-.CS-iPad,
-.CS-MacBookWrap {
+.CS-MacBookWrap,
+.CS-iPad {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1970,9 +1970,9 @@ html body .CS-endLinks > a {
   width: 1019.3px;
 }
 
+#ipad-outline circle,
 #ipad-outline path,
-#ipad-outline rect,
-#ipad-outline circle {
+#ipad-outline rect {
   fill: none;
   stroke: #c22085;
   stroke-width: 2;
@@ -2103,23 +2103,23 @@ textarea {
   width: 8px;
 }
 
-.morning-time::-webkit-scrollbar-thumb,
-.morning-time *::-webkit-scrollbar-thumb {
+.morning-time *::-webkit-scrollbar-thumb,
+.morning-time::-webkit-scrollbar-thumb {
   background: #2d9687;
 }
 
-.day-time::-webkit-scrollbar-thumb,
-.day-time *::-webkit-scrollbar-thumb {
+.day-time *::-webkit-scrollbar-thumb,
+.day-time::-webkit-scrollbar-thumb {
   background: #e9b171;
 }
 
-.evening-time::-webkit-scrollbar-thumb,
-.evening-time *::-webkit-scrollbar-thumb {
+.evening-time *::-webkit-scrollbar-thumb,
+.evening-time::-webkit-scrollbar-thumb {
   background: #c22085;
 }
 
-.late-evening-time::-webkit-scrollbar-thumb,
-.late-evening-time *::-webkit-scrollbar-thumb {
+.late-evening-time *::-webkit-scrollbar-thumb,
+.late-evening-time::-webkit-scrollbar-thumb {
   background: linear-gradient(
     to bottom,
     #c22085 25%,
@@ -2131,8 +2131,8 @@ textarea {
   );
 }
 
-.night-time::-webkit-scrollbar-thumb,
-.night-time *::-webkit-scrollbar-thumb {
+.night-time *::-webkit-scrollbar-thumb,
+.night-time::-webkit-scrollbar-thumb {
   background: #e2b8aa;
 }
 
@@ -2161,8 +2161,8 @@ textarea::-webkit-scrollbar-thumb {
     max-width: 100%;
   }
 
-  .logo,
-  #hamburger {
+  #hamburger,
+  .logo {
     position: absolute;
   }
 }
@@ -2250,8 +2250,8 @@ textarea::-webkit-scrollbar-thumb {
     background-repeat: repeat;
   }
 
-  .secHead,
-  .secEnd {
+  .secEnd,
+  .secHead {
     left: 0;
   }
 
@@ -2284,8 +2284,8 @@ textarea::-webkit-scrollbar-thumb {
     margin: 0 auto;
   }
 
-  html body .CS-FloatingiPhone,
-  html .CS-manyiPadsWrap .CS-FloatingiPhone {
+  html .CS-manyiPadsWrap .CS-FloatingiPhone,
+  html body .CS-FloatingiPhone {
     left: -10%;
   }
 
@@ -2328,8 +2328,8 @@ textarea::-webkit-scrollbar-thumb {
     font-size: 4.4vw;
   }
 
-  .quoteTop,
-  .quoteBottom {
+  .quoteBottom,
+  .quoteTop {
     display: none;
   }
 
@@ -2405,8 +2405,8 @@ textarea::-webkit-scrollbar-thumb {
     width: 100%;
   }
 
-  .CS-Content .CS-headSubQuote,
   .CS-Content .CS-headQuote,
+  .CS-Content .CS-headSubQuote,
   .CS-Content blockquote,
   .CS-Single article,
   .CS-Single article article {
@@ -2478,8 +2478,8 @@ textarea::-webkit-scrollbar-thumb {
     right: 7.5%;
   }
 
-  .logo,
-  #hamburger {
+  #hamburger,
+  .logo {
     pointer-events: auto;
   }
 
@@ -2585,8 +2585,8 @@ textarea::-webkit-scrollbar-thumb {
   visibility: hidden;
 }
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:after,
+.clearfix:before {
   content: '';
   display: table;
 }
@@ -2599,8 +2599,8 @@ textarea::-webkit-scrollbar-thumb {
   background-image: none !important;
 }
 
-.sec:before,
-.sec:after {
+.sec:after,
+.sec:before {
   display: none !important;
 }
 
@@ -2608,8 +2608,8 @@ textarea::-webkit-scrollbar-thumb {
   padding: 2rem 0;
 }
 
-img:before,
-image:before {
+image:before,
+img:before {
   content: '';
   display: block;
   border: 1px solid #000;
@@ -2623,8 +2623,8 @@ image:before {
   border-radius: 5px;
 }
 
-img:after,
-image:after {
+image:after,
+img:after {
   content: 'Please wait Loading Image...';
   display: block;
   font-size: 20px;
@@ -2642,8 +2642,8 @@ image:after {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-.no-js img[src=''],
-.no-js image[xlink:href=''] {
+.no-js image[xlink:href=''],
+.no-js img[src=''] {
   display: none;
 }
 
@@ -2710,24 +2710,24 @@ a[href*='cssreel'] {
 }
 
 @media print {
+  #contact,
+  #experiments,
   #hamburger,
-  #nav,
   #home,
-  #quote1,
+  #nav,
+  #projectDetailsModal,
   #projects,
+  #quote1,
   #quote2,
   #quote3,
-  #training,
   #quote4,
-  #experiments,
-  #contact,
   #teleportAnim,
-  #projectDetailsModal {
+  #training {
     display: none;
   }
 
-  #body .secHead,
-  #body .secEnd {
+  #body .secEnd,
+  #body .secHead {
     padding: 2rem 0;
     margin: 0;
   }
@@ -2769,6 +2769,7 @@ a[href*='cssreel'] {
     display: none !important;
   }
 }
+
 #quote3Text {
   letter-spacing: 0.001em;
 
@@ -2777,6 +2778,7 @@ a[href*='cssreel'] {
 
 #introAnim {
 }
+
 .introanim-img {
   position: absolute;
   width: 25%;
@@ -2784,6 +2786,7 @@ a[href*='cssreel'] {
   left: 40%;
   top: 30%;
 }
+
 @media (max-width: 767px) {
   .introanim-img {
     position: absolute;
@@ -2793,14 +2796,17 @@ a[href*='cssreel'] {
     top: 30%;
   }
 }
+
 #mainLogo {
   background: url('../images/n-p-18.png');
 }
+
 @media (min-width: 100px) {
   #homeSVG {
     transform: translateZ(200px) !important;
   }
 }
+
 .home-svgimg {
   position: absolute;
   width: 100%;
@@ -2811,9 +2817,11 @@ a[href*='cssreel'] {
   left: 0;
   top: 0;
 }
+
 #homeWrap {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
+
 .quoteTextWrap svg {
   width: 62%;
   height: 100%;
@@ -2821,10 +2829,12 @@ a[href*='cssreel'] {
   overflow: visible;
   margin-left: -60px;
 }
+
 .fade-in {
   -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
@@ -2834,20 +2844,23 @@ a[href*='cssreel'] {
     opacity: 0.5;
   }
 }
+
 .visible {
   display: block;
   animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
+
 #helloGreetings {
   color: rgb(27, 95, 92);
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa,
-    0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa;
 }
+
 .roll-in-blurred-left {
   -webkit-animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1)
     both;
   animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
+
 @-webkit-keyframes roll-in-blurred-left {
   0% {
     -webkit-transform: translateX(-1000px) rotate(-720deg);
@@ -2897,18 +2910,21 @@ a[href*='cssreel'] {
   padding-bottom: 50px;
   margin-left: -20px;
 }
+
 .secEnd:after {
   line-height: 2rem;
 }
+
 .quoteTextWrap svg {
   width: 71%;
   margin-left: -65px;
 }
+
 #quote2TextSVG {
   width: 100%;
-  margin: 0 auto;
-  margin-left: 21px;
+  margin: 0 auto 0 21px;
 }
+
 #quote3TextSVG {
   width: 71%;
   height: 100%;
@@ -2916,21 +2932,26 @@ a[href*='cssreel'] {
   overflow: visible;
   margin-left: -99px;
 }
+
 .quoteTextWrap {
   left: -10vmin;
 }
+
 #quote4TextSVG {
   width: 77%;
 }
+
 @media (max-width: 767px) {
   .nav li {
     font-size: 0.5em;
     padding-bottom: 30px;
   }
 }
+
 #home {
   position: relative;
 }
+
 .home-svgimg1 {
   position: absolute;
   width: 100%;
@@ -2941,6 +2962,7 @@ a[href*='cssreel'] {
   left: 0;
   top: 0;
 }
+
 .home-svgimg2 {
   position: absolute;
   width: 100%;
@@ -2951,6 +2973,7 @@ a[href*='cssreel'] {
   left: 0;
   top: 0;
 }
+
 .home-svgimg3 {
   position: absolute;
   width: 100%;
@@ -2961,6 +2984,7 @@ a[href*='cssreel'] {
   left: 0;
   top: 0;
 }
+
 .home-svgimg4 {
   position: absolute;
   width: 100%;
@@ -2970,4 +2994,8 @@ a[href*='cssreel'] {
 
   left: 0;
   top: 0;
+}
+
+.main__wrapper {
+  display: none;
 }

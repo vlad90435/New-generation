@@ -191,455 +191,375 @@
 		<link rel="stylesheet" href="css/style.css">
 	</noscript>
 </head>
+<div class="main__wrapper">
 
-<body id="body">
-	<noscript>
-		<p class="No-jsWran"><a href="http://www.enable-javascript.com/" target="_blank">Чтобы увидить весь контент включите JavaScript
+	<body id="body">
+		<noscript>
+			<p class="No-jsWran"><a href="http://www.enable-javascript.com/" target="_blank">Чтобы увидить весь контент
+					включите JavaScript
 				</a></p>
-	</noscript>
+		</noscript>
 
-	<svg width="0" height="0" style="display:none">
-		<symbol id="PSLogo" viewBox="0 0 184.6 138">
-
-			<polygon points="40.2,121.3 40.2,133.6 2.5,111.8 2.5,24.7 40.2,2.9 78,24.7 78,68.3 40.2,90.1" />
-			<polygon
-				points="179.6,82 179.6,96.5 179.6,111.8 141.8,133.6 104.1,111.8 141.8,90.1 104.1,68.3 104.1,24.7 141.8,2.9 179.6,24.7 141.8,46.5 179.6,68.3" />
-			<line x1="104.1" y1="24.7" x2="141.8" y2="46.5" />
-			<line x1="141.8" y1="2.9" x2="141.8" y2="46.5" />
-			<line x1="104.1" y1="68.3" x2="141.8" y2="46.5" />
-			<line x1="141.8" y1="90.1" x2="179.6" y2="68.3" />
-			<line x1="141.8" y1="90.1" x2="179.6" y2="111.8" />
-			<line x1="141.8" y1="90.1" x2="141.8" y2="133.6" />
-			<line x1="40.2" y1="90.1" x2="40.2" y2="2.9" />
-			<line x1="2.5" y1="24.7" x2="78" y2="68.3" />
-			<line x1="78" y1="24.7" x2="40.2" y2="46.5" />
-		</symbol>
-	</svg>
-	<div id="introAnim" class="introAnim" role="presentation">
-		<img src="images/n-p-18.png" alt="" class="introanim-img">
-		</svg>
-		<svg id="introAnim1" x="0" y="0" width="184.6px" height="138px" viewBox="0 0 184.6 138"
-			preserveAspectRatio="xMidYMid meet"></svg>
-		<svg id="introAnim2" x="0" y="0" width="184.6px" height="138px" viewBox="0 0 184.6 138"
-			preserveAspectRatio="xMidYMid meet"></svg>
-		<svg id="introAnim3" x="0" y="0" width="184.6px" height="138px" viewBox="0 0 184.6 138"
-			preserveAspectRatio="xMidYMid meet"></svg>
-	</div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
-	<script>
-		( function () {
-			if ( !window.TweenMax ) {
-				document.write( "<script src='js/plugins/tweenmax.js'><\/script>" );
-			}
-			if ( !window.jQuery ) {
-				document.write( "<script src='js/plugins/jquery-3.1.1.min.js'><\/script>" );
-			}
-		} )();
-
-	</script>
-	<script src="js/init.js"></script>
-	<header>
-		<div class="wrap">
-			<h1 class="logo" id="logo">
-				<div id="mainLogo" x="0" y="0" viewBox="0 0 184.6 138" preserveAspectRatio="xMidYMid meet">
-					<img src="images/n-p-18.png" alt="">
-				
-				</div>
-
-			</h1>
-
-		</div>
-		<nav id="nav" class="nav" aria-hidden="true" tabindex="-1">
-			<ul>
-				<li><a href="#home">Главная</a><span></span></li>
-				<li><a href="#projects">Программа обучения</a><span></span></li>
-				<li><a href="#about">О нас</a><span></span></li>
-				<li><a href="#training">Помощь в трудоустройстве</a><span></span></li>
-				<li><a href="#experiments">Галерея</a><span></span></li>
-				<li><a href="#contact">Связь</a><span></span></li>
-			</ul>
-		</nav>
-	</header>
-	<main role="main" id="main" tabindex="2">
-		<section id="home" class="sec home">
-			<div class="wrap" id="homeWrap">
-				<article id="homeTextWrap">
-					<h1 id="helloGreetings"><span itemprop="name">Рады приветствовать на</span>
-						сайте New Generation!
-					</h1>
-				</article>
-				
-					<div id="homeSVG">
-				</div>
-				
-			</div>
-			<img src="images/computer-code-software.jpg" alt="" class="home-svgimg">
-		</section>
-		<section id="quote1" class="sec quote1 quoteSec">
-			<div class="wrap">
-				<svg role="presentation" class="quoteTop" id="quote1Top">
-					<use xlink:href="#q1t"></use>
-				</svg>
-				<blockquote class="quoteTextWrap">
-					<svg id="quote1TextSVG" x="0" y="0" viewBox="0 0 591.7 313.3">
-						<polyline id="quote1Heart" class="quote1Heart"
-							points="191.9,118.2 128,7.3 463.8,7.3 295.9,298 233.2,189.5" />
-						<rect x="170" y="112.9" class="quoteTextBG" width="93" height="82" />
-						<rect x="370" y="43.9" class="quoteTextBG" width="93" height="82" />
-						<text x="239.2858" y="109.9107" class="quoteText quote1TextTop">“Делай, то что любишь</text>
-						<text x="-0.7142" y="179.7315" class="quoteText quote1TextBottom">Люби то, что делаешь”</text>
-					</svg>
-				</blockquote>
-				<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
-					id="quote1Bottom">
-					<use xlink:href="#q1b"></use>
-				</svg>
-			</div>
-			<img src="images/section_bg.png" alt="" class="home-svgimg1">
-		</section>
-		<section id="projects" class="sec projects">
-			<div class="wrap">
-				<h1 class="secHead">Програма обучения</h1>
-				<ul class="projectsList clearfix" id="projectsList">
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-									<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							<!-- <h3 class="openPortfolio" >Тут должна быть программа</h3> -->
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-					<li>
-						<article>
-							<h1 class="projListName openPortfolio">1</h1>
-							<h2 class="projListDesc">Тут должен быть текст
-								<a class="openPortfolio" href="#">Тут должна быть программа</a>
-							</h2>
-							
-						</article>
-						<div class="reveler"></div>
-					</li>
-				</ul>
-				<div class="secEnd" data-text="Програма обучения"></div>
-			</div>
-		</section>
-		<section id="quote2" class="sec quote2 quoteSec">
-			<div class="wrap">
-				<svg role="presentation" class="quoteTop" id="quote2Top">
-					<use xlink:href="#q2t"></use>
-				</svg>
-				<blockquote class="quoteTextWrap">
-					<svg id="quote2TextSVG" x="0" y="0" viewBox="0 0 455.3 443">
-						<polyline id="quotePositiveTop" class="quotePositiveLines"
-							points="199.1,74.2 164.9,15 17.1,271 312.7,271 240.7,146.3 " />
-						<polyline id="quotePositiveBottom" class="quotePositiveLines"
-							points="256.8,364 293.7,428 441.4,172 145.9,172 216.2,293.8 " />
-						<rect x="169.9" y="69.9" class="quoteTextBG" width="93" height="82" />
-						<rect x="192.4" y="289.5" class="quoteTextBG" width="93" height="82" />
-						<text x="183.7278" y="137.4443" id="quote2TextTop" class="quoteText">“Никогда</text>
-						<text x="-0.7144" y="356.3108" id="quote2TextBottom" class="quoteText">Не сдавайся!”</text>
-					</svg>
-				</blockquote>
-				<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
-					id="quote2Bottom">
-					<use xlink:href="#q2b"></use>
-				</svg>
-			</div>
-			<img src="images/section2_bg.jpg" alt="" class="home-svgimg2">
-		</section>
-		<section id="about" class="sec about">
-			<div class="wrap">
-				<h1 class="secHead">О нас</h1>
-				<svg class="aboutImg" id="aboutImg" x="0" y="0" viewBox="0 0 390.4 466.1"
-					preserveAspectRatio="xMidYMid meet">
-
-					<image width="450" height="350" id="aboutME" xlink:href="" data-src="images/n-p-18.png" x="1.1246"
-						y="182"></image>
-					
-				</svg>
-				<noscript>
-					<svg class="aboutImg" x="0" y="0" viewBox="0 0 368.4 466.1" preserveAspectRatio="xMidYMid meet">
-						<image width="250" height="300" xlink:href="images/n-p-18.png" x="1.1246" y="182"></image>
-					</svg>
-				</noscript>
-				<div class="secContent">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, labore facere voluptate odit
-						laborum odio quam ratione deserunt sed cum officiis possimus quisquam rerum cupiditate eius
-						sapiente fuga pariatur! Fugit.</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, labore facere voluptate odit
-						laborum odio quam ratione deserunt sed cum officiis possimus quisquam rerum cupiditate eius
-						sapiente fuga pariatur! Fugit <strong>lorem quam ratione deserunt sed cum officiis possimus
-							quisquam rerum cupiditate eius sapiente .</strong></p>
-					<p>Esse, labore facere voluptate odit laborum odio quam ratione deserunt sed cum officiis possimus
-						quisquam rerum cupiditate eius sapiente fuga </p>
-					<p>sectetur adipisicing elit. Esse, labore facere voluptate odi.</p>
-				</div>
-				<div class="secEnd" data-text="О нас"></div>
-			</div>
-		</section>
-		<section id="quote3" class="sec quote3 quoteSec">
-			<div class="wrap">
-				<svg role="presentation" class="quoteTop" id="quote3Top">
-					<use xlink:href="#q3t"></use>
-				</svg>
-				<blockquote class="quoteTextWrap">
-					<svg id="quote3TextSVG" x="0" y="0" viewBox="0 0 475.3 419.1" preserveAspectRatio="xMidYMid meet">
-						<polyline fill="none" id="quote3Poem" class="quote3Poem"
-							points="82.15,209.55 13,209.55 125.3,15 350,404.1 462.3,209.5 386.817,209.5 "
-							stroke="#E9B171" stroke-width="15" />
-						<rect x="92" y="167" class="quoteTextBG" width="332" height="82" />
-						<text x="100" y="229.6151" id="quote3Text" class="quoteText quote3Text">“Программирование- это
-							исскуство!”</text>
-					</svg>
-				</blockquote>
-				<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
-					id="quote3Bottom">
-					<use xlink:href="#q3b"></use>
-				</svg>
-			</div>
-			<img src="images/section4_bg.jpg" alt="" class="home-svgimg3">
-		</section>
-		<section id="training" class="sec training">
-			<div class="wrap">
-				<h1 class="secHead">Помощь в трудоустройстве</h1>
-				<svg id="icosaTraining" x="0" y="0" viewBox="0 0 200 232" preserveAspectRatio="xMidYMid meet">
-					<path class="trainingIcosa0"
-						d="M99.9,2.5l98.3,56.7v113.5l-98.3,56.7L1.8,172.7V59.3L99.9,2.5 M99.9,1.7l-0.4,0.2L1.5,58.6l-0.4,0.2v0.4 v113.5v0.4l0.4,0.2l98.1,56.7l0.4,0.2l0.4-0.2l98.3-56.7l0.4-0.2v-0.4V59.3v-0.4l-0.4-0.2L100.3,1.9L99.9,1.7L99.9,1.7z" />
-					<polygon class="trainingIcosa5"
-						points="161.1,81.7 100.1,4 38.9,81.7 1.4,60.1 2.3,58.5 38.5,79.4 100.1,1.1 161.5,79.4 197.7,58.5 198.6,60.1" />
-					<polygon class="trainingIcosa1"
-						points="99.9,230.1 99.6,229.7 38.6,151.9 2,173 1.7,172.4 38.8,151 99.9,228.9 161.2,151 198.3,172.4 198,173 161.4,151.9" />
-					<path class="trainingIcosa7"
-						d="M100.1,2.5l98.1,56.7v113.5l-98.1,56.7L1.8,172.7V59.3L100.1,2.5 M100.1,0.4l-0.9,0.5L0.9,57.7L0,58.2v1.1 v113.5v1.1l0.9,0.5l98.3,56.7l0.9,0.5l0.9-0.5l98.1-56.7l0.9-0.5v-1.1V59.3v-1.1l-0.9-0.5L101,0.9L100.1,0.4L100.1,0.4z" />
-					<polygon class="trainingIcosa3" points="39,151.6 38.4,151.3 99.6,44.9 100.2,45.3" />
-					<path class="trainingIcosa2"
-						d="M161.6,151.8H38.4L1.3,59l98.2-14.2V2.5h0.7v42.2L198.7,59l-0.2,0.4L161.6,151.8z M38.9,151.1h121.7l-61-105.6 L2.4,59.6L38.9,151.1z M100.6,45.6l60.7,105.1l36.4-91.1L100.6,45.6z" />
-					<path class="trainingIcosa6"
-						d="M101,229.5h-1.8v-41.8L0.6,173.5l37.5-93.8h123.9l0.2,0.6l37.3,93.3l-1.2,0.2L101,187.7V229.5z M40.3,81.5 l60.3,104.4l96.3-13.9l-36.2-90.5H40.3z M3.1,172l95.2,13.7L38.8,82.6L3.1,172z" />
-					<polygon class="trainingIcosa4" points="100.9,187.4 99.3,186.5 160.5,80.1 162.1,81" />
-				</svg>
-				<div class="secContent">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-					<p>Esse, labore facere voluptate odit laborum odio quam ratione deserunt sed cum officiis possimus
-						quisquam rerum cupiditate eius sapiente fuga pariatur! Fugit..</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<strong>laborum odio quam ratione
-							deserunt sed cum officiis possimus quisquam rerum cupiditate eius sapiente fugan</strong>
-					</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-				</div>
-				<div class="secEnd" data-text="Помощь в трудоустройстве"></div>
-			</div>
-		</section>
-		<section id="quote4" class="sec quote4 quoteSec">
-			<div class="wrap">
-				<svg role="presentation" class="quoteTop" id="quote4Top">
-					<use xlink:href="#q4t"></use>
-				</svg>
-				<blockquote class="quoteTextWrap">
-					<svg id="quote4TextSVG" x="0" y="0" viewBox="0 0 516.4 313.3">
-						<polyline id="quote4Triangle" class="st0"
-							points="210.2,96.4 258.2,13.3 426.1,304 90.3,304 170.5,165.1" />
-						<rect x="137.2" y="91.3" class="quoteTextBG" width="239" height="82" />
-						<rect x="78.1" y="189.9" class="quoteTextBG" width="92.1" height="82" />
-						<rect x="348.4" y="189.9" class="quoteTextBG" width="92.1" height="82" />
-						<text x="114.083" y="158.8266" id="quote4TextTop" class="quoteText quote4Text">“Твои
-							возможности</text>
-						<text x="2.441406" y="252.3795" id="quote4TextBottom" class="quoteText quote4Text">Зависят от
-							твоих стараний”</text>
-					</svg>
-				</blockquote>
-				<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
-					id="quote4Bottom">
-					<use xlink:href="#q4b"></use>
-				</svg>
-			</div>
-			<img src="images/section5_bg.jpg" alt="" class="home-svgimg4">
-		</section>
-		<section id="experiments" class="sec experiments">
-			<div class="wrap">
-				<h1 class="secHead">Галерея</h1>
-				<svg x="0" y="0" id="experimentsWrap" viewBox="0 0 826 454" xml:space="preserve"
-					preserveAspectRatio="xMidYMid meet">
-					<a xlink:href="#" class="expLinks" target="_blank"
-						rel="noopener noreferrer">
-						<clipPath id="exp1">
-							<polygon points="217.5,298.4 109,110.3 0.4,298.4" />
-						</clipPath>
-						<image style="clip-path:url(#exp1);" width="300" height="300" xlink:href=""
-							data-src="images/experiments/1.jpg" x="-2.392" y="85.7221" />
-					</a>
-					<a xlink:href="#" class="expLinks" target="_blank"
-						rel="noopener noreferrer">
-						<clipPath id="exp2">
-							<polygon points="109,66.3 243.1,298.6 377.3,66.3" />
-						</clipPath>
-						<image style="clip-path:url(#exp2)" width="300" height="300"
-							xlink:href="images/experiments/3.jpg" x="95.805" y="53.1319" />
-					</a>
-					<a xlink:href="#" class="expLinks" target="_blank"
-						rel="noopener noreferrer">
-						<clipPath id="exp3">
-							<polygon points="201.1,413.4 309.6,225.4 418.2,413.4" />
-						</clipPath>
-						<image style="clip-path:url(#exp3);" width="300" height="300" xlink:href=""
-							data-src="images/experiments/4.jpg" x="194.7787" y="186.1979" />
-					</a>
-					<a xlink:href="#" class="expLinks" target="_blank"
-						rel="noopener noreferrer">
-						<clipPath id="exp4">
-							<polygon points="319.8,204.4 437.7,0.1 555.7,204.4" />
-						</clipPath>
-						<image style="clip-path:url(#exp4);" width="300" height="300" xlink:href=""
-							data-src="images/experiments/5.jpg" x="318.2836" y="-29.1972" />
-					</a>
-					<a xlink:href="#"
-						class="expLinks" target="_blank" rel="noopener noreferrer">
-						<clipPath id="exp5">
-							<polygon points="597,221.6 462.8,453.9 328.7,221.6" />
-						</clipPath>
-						<image style="clip-path:url(#exp5)" width="300" height="300" xlink:href=""
-							data-src="images/experiments/2.jpg" x="328.1388" y="191.9148" />
-					</a>
-					<a xlink:href="#" target="_blank" rel="noopener noreferrer"
-						class="expLinks">
-						<clipPath id="exp6">
-							<polygon points="528.4,378 677,120.6 825.6,378" />
-						</clipPath>
-						<image style="clip-path:url(#exp6);" width="300" height="300" xlink:href=""
-							data-src="images/experiments/6.jpg" x="525.634" y="109.4018" />
-					</a>
-					<polygon class="expFrame" points="217.1,298.3 108.6,110.3 0,298.3" />
-					<polygon class="expFrame" points="108.6,66.2 242.7,298.6 376.9,66.2" />
-					<polygon class="expFrame" points="200.7,413.3 309.3,225.3 417.8,413.3" />
-					<polygon class="expFrame" points="319.4,204.3 437.3,0 555.3,204.3" />
-					<polygon class="expFrame" points="596.6,221.5 462.4,453.9 328.3,221.5" />
-					<polygon class="expFrame" points="528,378 676.6,120.6 825.2,378" />
-				</svg>
-				<noscript>
-				</noscript>
-				<div class="secEnd" data-text="Галерея"></div>
-			</div>
-		</section>
-		<section id="contact" class="sec contact">
-			<div class="wrap">
-				<h1 class="secHead">Обратная связь</h1>
-				<div class="secContent">
-					<p>По поводу вопросов пишите на почту <a href="mailto:it-kntu@ukr.net">it-kntu@ukr.net</a></p>
-					<p id="messageStatus">Так же вы можете оставить свое сообщение здесь</p>
-					<form id="contactForm" class="contactForm" method="POST">
-						<noscript>
-							<p>Заполните все поля</p>
-						</noscript>
-						<p class="inputWrap">
-							<label for="name">Ваше имя</label>
-							<input id="name" name="name" type="text" autocorrect="off" autocapitalize="on" required
-								pattern=".{3,}">
-							<span class="styledLabel" data-text="Ваше имя"></span>
-						</p>
-						<p class="inputWrap">
-							<label for="email">Ваш почтовый адрес</label>
-							<input id="email" name="email" type="email" autocorrect="off" autocapitalize="off" required>
-							<span class="styledLabel" data-text="Ваш почтовый адрес"></span>
-						</p>
-						<p class="inputWrap textAreaWrap">
-							<label for="message">Ваше сообщение</label>
-							<textarea id="message" name="message" autocorrect="off" autocapitalize="off"
-								autocomplete="on" required></textarea>
-							<span class="styledLabel" data-text="Ваше сообщение"></span>
-						</p>
-						<p class="inputWrap submitWrap">
-							<input type="submit" value="Submit" title="Submit">
-							<svg viewBox="0 0 27.8 32.1" x="0" y="0" width="48px" height="55px">
-								<path class="st2" d="M0,32.1V0l27.8,16.1L0,32.1z M1,1.7v28.7l24.8-14.3L1,1.7z" />
-								<path class="st3" d="M5.3,22.6V9.5l11.3,6.5L5.3,22.6z M5.9,10.6v11l9.5-5.5L5.9,10.6z" />
-							</svg>
-						</p>
-					</form>
-				</div>
-				<div class="secEnd" data-text="Обратная связь"></div>
-			</div>
-		</section>
-	</main>
-	<div id="projectDetailsModal" role="dialog" aria-hidden="true"></div>
-	<script src="js/script.js"></script>
-	<script>
+	
 		
+		<div id="introAnim" class="introAnim" role="presentation">
+			<img src="images/n-p-18.png" alt="" class="introanim-img">
+			<svg id="introAnim1" x="0" y="0" width="184.6px" height="138px" viewBox="0 0 184.6 138"
+				preserveAspectRatio="xMidYMid meet"></svg>
+			<svg id="introAnim2" x="0" y="0" width="184.6px" height="138px" viewBox="0 0 184.6 138"
+				preserveAspectRatio="xMidYMid meet"></svg>
+			<svg id="introAnim3" x="0" y="0" width="184.6px" height="138px" viewBox="0 0 184.6 138"
+				preserveAspectRatio="xMidYMid meet"></svg>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+		<script>
+			( function () {
+				if ( !window.TweenMax ) {
+					document.write( "<script src='js/plugins/tweenmax.js'><\/script>" );
+				}
+				if ( !window.jQuery ) {
+					document.write( "<script src='js/plugins/jquery-3.1.1.min.js'><\/script>" );
+				}
+			} )();
 
-	</script>
+		</script>
+		<script src="js/init.js"></script>
+		<header>
+			<div class="wrap">
+				<h1 class="logo" id="logo">
+					<div id="mainLogo" x="0" y="0" viewBox="0 0 184.6 138" preserveAspectRatio="xMidYMid meet">
+						<img src="images/n-p-18.png" alt="">
+
+					</div>
+
+				</h1>
+
+			</div>
+			<nav id="nav" class="nav" aria-hidden="true" tabindex="-1">
+				<ul>
+					<li><a href="#home">Главная</a><span></span></li>
+					<li><a href="#projects">Программа обучения</a><span></span></li>
+					<li><a href="#about">О нас</a><span></span></li>
+					<li><a href="#training">Помощь в трудоустройстве</a><span></span></li>
+					<li><a href="#experiments">Галерея</a><span></span></li>
+					<li><a href="#contact">Связь</a><span></span></li>
+				</ul>
+			</nav>
+		</header>
+		<main role="main" id="main" tabindex="2">
+			<section id="home" class="sec home">
+				<div class="wrap" id="homeWrap">
+					<article id="homeTextWrap">
+						<h1 id="helloGreetings"><span itemprop="name">Рады приветствовать на</span>
+							сайте New Generation!
+						</h1>
+					</article>
+
+					<div id="homeSVG">
+					</div>
+
+				</div>
+				<img src="images/computer-code-software.jpg" alt="" class="home-svgimg">
+			</section>
+			<section id="quote1" class="sec quote1 quoteSec">
+				<div class="wrap">
+					<svg role="presentation" class="quoteTop" id="quote1Top">
+						<use xlink:href="#q1t"></use>
+					</svg>
+					<blockquote class="quoteTextWrap">
+						<svg id="quote1TextSVG" x="0" y="0" viewBox="0 0 591.7 313.3">
+							<polyline id="quote1Heart" class="quote1Heart"
+								points="191.9,118.2 128,7.3 463.8,7.3 295.9,298 233.2,189.5" />
+							<rect x="170" y="112.9" class="quoteTextBG" width="93" height="82" />
+							<rect x="370" y="43.9" class="quoteTextBG" width="93" height="82" />
+							<text x="239.2858" y="109.9107" class="quoteText quote1TextTop">“Делай, то что любишь</text>
+							<text x="-0.7142" y="179.7315" class="quoteText quote1TextBottom">Люби то, что делаешь”</text>
+						</svg>
+					</blockquote>
+					<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
+						id="quote1Bottom">
+						<use xlink:href="#q1b"></use>
+					</svg>
+				</div>
+				<img src="images/section_bg.png" alt="" class="home-svgimg1">
+			</section>
+			<section id="projects" class="sec projects">
+				<div class="wrap">
+					<h1 class="secHead">Програма обучения</h1>
+					<ul class="projectsList clearfix" id="projectsList">
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+								<!-- <h3 class="openPortfolio" >Тут должна быть программа</h3> -->
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+						<li>
+							<article>
+								<h1 class="projListName openPortfolio">1</h1>
+								<h2 class="projListDesc">Тут должен быть текст
+									<a class="openPortfolio" href="#">Тут должна быть программа</a>
+								</h2>
+
+							</article>
+							<div class="reveler"></div>
+						</li>
+					</ul>
+					<div class="secEnd" data-text="Програма обучения"></div>
+				</div>
+			</section>
+			<section id="quote2" class="sec quote2 quoteSec">
+				<div class="wrap">
+					<svg role="presentation" class="quoteTop" id="quote2Top">
+						<use xlink:href="#q2t"></use>
+					</svg>
+					<blockquote class="quoteTextWrap">
+						<svg id="quote2TextSVG" x="0" y="0" viewBox="0 0 455.3 443">
+							<polyline id="quotePositiveTop" class="quotePositiveLines"
+								points="199.1,74.2 164.9,15 17.1,271 312.7,271 240.7,146.3 " />
+							<polyline id="quotePositiveBottom" class="quotePositiveLines"
+								points="256.8,364 293.7,428 441.4,172 145.9,172 216.2,293.8 " />
+							<rect x="169.9" y="69.9" class="quoteTextBG" width="93" height="82" />
+							<rect x="192.4" y="289.5" class="quoteTextBG" width="93" height="82" />
+							<text x="183.7278" y="137.4443" id="quote2TextTop" class="quoteText">“Никогда</text>
+							<text x="-0.7144" y="356.3108" id="quote2TextBottom" class="quoteText">Не сдавайся!”</text>
+						</svg>
+					</blockquote>
+					<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
+						id="quote2Bottom">
+						<use xlink:href="#q2b"></use>
+					</svg>
+				</div>
+				<img src="images/section2_bg.jpg" alt="" class="home-svgimg2">
+			</section>
+			<section id="about" class="sec about">
+				<div class="wrap">
+					<h1 class="secHead">О нас</h1>
+					<svg class="aboutImg" id="aboutImg" x="0" y="0" viewBox="0 0 390.4 466.1" preserveAspectRatio="xMidYMid meet">
+
+						<image width="450" height="350" id="aboutME" xlink:href="" data-src="images/n-p-18.png" x="1.1246" y="182">
+						</image>
+
+					</svg>
+					<noscript>
+						<svg class="aboutImg" x="0" y="0" viewBox="0 0 368.4 466.1" preserveAspectRatio="xMidYMid meet">
+							<image width="250" height="300" xlink:href="images/n-p-18.png" x="1.1246" y="182"></image>
+						</svg>
+					</noscript>
+					<div class="secContent">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, labore facere voluptate odit
+							laborum odio quam ratione deserunt sed cum officiis possimus quisquam rerum cupiditate eius
+							sapiente fuga pariatur! Fugit.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, labore facere voluptate odit
+							laborum odio quam ratione deserunt sed cum officiis possimus quisquam rerum cupiditate eius
+							sapiente fuga pariatur! Fugit <strong>lorem quam ratione deserunt sed cum officiis possimus
+								quisquam rerum cupiditate eius sapiente .</strong></p>
+						<p>Esse, labore facere voluptate odit laborum odio quam ratione deserunt sed cum officiis possimus
+							quisquam rerum cupiditate eius sapiente fuga </p>
+						<p>sectetur adipisicing elit. Esse, labore facere voluptate odi.</p>
+					</div>
+					<div class="secEnd" data-text="О нас"></div>
+				</div>
+			</section>
+			<section id="quote3" class="sec quote3 quoteSec">
+				<div class="wrap">
+					<svg role="presentation" class="quoteTop" id="quote3Top">
+						<use xlink:href="#q3t"></use>
+					</svg>
+					<blockquote class="quoteTextWrap">
+						<svg id="quote3TextSVG" x="0" y="0" viewBox="0 0 475.3 419.1" preserveAspectRatio="xMidYMid meet">
+							<polyline fill="none" id="quote3Poem" class="quote3Poem"
+								points="82.15,209.55 13,209.55 125.3,15 350,404.1 462.3,209.5 386.817,209.5 " stroke="#E9B171"
+								stroke-width="15" />
+							<rect x="92" y="167" class="quoteTextBG" width="332" height="82" />
+							<text x="100" y="229.6151" id="quote3Text" class="quoteText quote3Text">“Программирование- это
+								исскуство!”</text>
+						</svg>
+					</blockquote>
+					<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
+						id="quote3Bottom">
+						<use xlink:href="#q3b"></use>
+					</svg>
+				</div>
+				<img src="images/section4_bg.jpg" alt="" class="home-svgimg3">
+			</section>
+			<section id="training" class="sec training">
+				<div class="wrap">
+					<h1 class="secHead">Помощь в трудоустройстве</h1>
+					<svg id="icosaTraining" x="0" y="0" viewBox="0 0 200 232" preserveAspectRatio="xMidYMid meet">
+						<path class="trainingIcosa0"
+							d="M99.9,2.5l98.3,56.7v113.5l-98.3,56.7L1.8,172.7V59.3L99.9,2.5 M99.9,1.7l-0.4,0.2L1.5,58.6l-0.4,0.2v0.4 v113.5v0.4l0.4,0.2l98.1,56.7l0.4,0.2l0.4-0.2l98.3-56.7l0.4-0.2v-0.4V59.3v-0.4l-0.4-0.2L100.3,1.9L99.9,1.7L99.9,1.7z" />
+						<polygon class="trainingIcosa5"
+							points="161.1,81.7 100.1,4 38.9,81.7 1.4,60.1 2.3,58.5 38.5,79.4 100.1,1.1 161.5,79.4 197.7,58.5 198.6,60.1" />
+						<polygon class="trainingIcosa1"
+							points="99.9,230.1 99.6,229.7 38.6,151.9 2,173 1.7,172.4 38.8,151 99.9,228.9 161.2,151 198.3,172.4 198,173 161.4,151.9" />
+						<path class="trainingIcosa7"
+							d="M100.1,2.5l98.1,56.7v113.5l-98.1,56.7L1.8,172.7V59.3L100.1,2.5 M100.1,0.4l-0.9,0.5L0.9,57.7L0,58.2v1.1 v113.5v1.1l0.9,0.5l98.3,56.7l0.9,0.5l0.9-0.5l98.1-56.7l0.9-0.5v-1.1V59.3v-1.1l-0.9-0.5L101,0.9L100.1,0.4L100.1,0.4z" />
+						<polygon class="trainingIcosa3" points="39,151.6 38.4,151.3 99.6,44.9 100.2,45.3" />
+						<path class="trainingIcosa2"
+							d="M161.6,151.8H38.4L1.3,59l98.2-14.2V2.5h0.7v42.2L198.7,59l-0.2,0.4L161.6,151.8z M38.9,151.1h121.7l-61-105.6 L2.4,59.6L38.9,151.1z M100.6,45.6l60.7,105.1l36.4-91.1L100.6,45.6z" />
+						<path class="trainingIcosa6"
+							d="M101,229.5h-1.8v-41.8L0.6,173.5l37.5-93.8h123.9l0.2,0.6l37.3,93.3l-1.2,0.2L101,187.7V229.5z M40.3,81.5 l60.3,104.4l96.3-13.9l-36.2-90.5H40.3z M3.1,172l95.2,13.7L38.8,82.6L3.1,172z" />
+						<polygon class="trainingIcosa4" points="100.9,187.4 99.3,186.5 160.5,80.1 162.1,81" />
+					</svg>
+					<div class="secContent">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+						<p>Esse, labore facere voluptate odit laborum odio quam ratione deserunt sed cum officiis possimus
+							quisquam rerum cupiditate eius sapiente fuga pariatur! Fugit..</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<strong>laborum odio quam ratione
+								deserunt sed cum officiis possimus quisquam rerum cupiditate eius sapiente fugan</strong>
+						</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+					</div>
+					<div class="secEnd" data-text="Помощь в трудоустройстве"></div>
+				</div>
+			</section>
+			<section id="quote4" class="sec quote4 quoteSec">
+				<div class="wrap">
+					<svg role="presentation" class="quoteTop" id="quote4Top">
+						<use xlink:href="#q4t"></use>
+					</svg>
+					<blockquote class="quoteTextWrap">
+						<svg id="quote4TextSVG" x="0" y="0" viewBox="0 0 516.4 313.3">
+							<polyline id="quote4Triangle" class="st0" points="210.2,96.4 258.2,13.3 426.1,304 90.3,304 170.5,165.1" />
+							<rect x="137.2" y="91.3" class="quoteTextBG" width="239" height="82" />
+							<rect x="78.1" y="189.9" class="quoteTextBG" width="92.1" height="82" />
+							<rect x="348.4" y="189.9" class="quoteTextBG" width="92.1" height="82" />
+							<text x="114.083" y="158.8266" id="quote4TextTop" class="quoteText quote4Text">“Твои
+								возможности</text>
+							<text x="2.441406" y="252.3795" id="quote4TextBottom" class="quoteText quote4Text">Зависят от
+								твоих стараний”</text>
+						</svg>
+					</blockquote>
+					<svg role="presentation" class="quoteBottom" viewBox="0 0 189 189" preserveAspectRatio="xMidYMid meet"
+						id="quote4Bottom">
+						<use xlink:href="#q4b"></use>
+					</svg>
+				</div>
+				<img src="images/section5_bg.jpg" alt="" class="home-svgimg4">
+			</section>
+		
+			<section id="contact" class="sec contact">
+				<div class="wrap">
+					<h1 class="secHead">Обратная связь</h1>
+					<div class="secContent">
+						<p>По поводу вопросов пишите на почту <a href="mailto:it-kntu@ukr.net">it-kntu@ukr.net</a></p>
+						<p id="messageStatus">Так же вы можете оставить свое сообщение здесь</p>
+						<form id="contactForm" class="contactForm" method="POST">
+							<noscript>
+								<p>Заполните все поля</p>
+							</noscript>
+							<p class="inputWrap">
+								<label for="name">Ваше имя</label>
+								<input id="name" name="name" type="text" autocorrect="off" autocapitalize="on" required pattern=".{3,}">
+								<span class="styledLabel" data-text="Ваше имя"></span>
+							</p>
+							<p class="inputWrap">
+								<label for="email">Ваш почтовый адрес</label>
+								<input id="email" name="email" type="email" autocorrect="off" autocapitalize="off" required>
+								<span class="styledLabel" data-text="Ваш почтовый адрес"></span>
+							</p>
+							<p class="inputWrap textAreaWrap">
+								<label for="message">Ваше сообщение</label>
+								<textarea id="message" name="message" autocorrect="off" autocapitalize="off" autocomplete="on"
+									required></textarea>
+								<span class="styledLabel" data-text="Ваше сообщение"></span>
+							</p>
+							<p class="inputWrap submitWrap">
+								<input type="submit" value="Submit" title="Submit">
+								<svg viewBox="0 0 27.8 32.1" x="0" y="0" width="48px" height="55px">
+									<path class="st2" d="M0,32.1V0l27.8,16.1L0,32.1z M1,1.7v28.7l24.8-14.3L1,1.7z" />
+									<path class="st3" d="M5.3,22.6V9.5l11.3,6.5L5.3,22.6z M5.9,10.6v11l9.5-5.5L5.9,10.6z" />
+								</svg>
+							</p>
+						</form>
+					</div>
+					<div class="secEnd" data-text="Обратная связь"></div>
+				</div>
+			</section>
+		</main>
+		<div id="projectDetailsModal" role="dialog" aria-hidden="true"></div>
+</div>
+<script src="js/script.js"></script>
+<script>
+
+
+</script>
 </body>
 
 </html>

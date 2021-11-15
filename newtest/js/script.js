@@ -3245,6 +3245,11 @@ window.$ani.initCSAnims = function () {
 
 let backimg = document.querySelector(".home-svgimg");
 
+let wrapper = document.querySelector( '.main__wrapper' );
+setTimeout(function loader () {
+	wrapper.style.display = "block";
+},900)
+
 function visible() {
   backimg.classList.toggle("visible");
 }
